@@ -43,7 +43,7 @@
         <h1 class="title-desc">Exemplos de JavaScript</h1>
         <p class="text">
             Javascript é uma linguagem de programação utilizada para criar interatividade em páginas web.
-            Aqui você poderá testar códigos diretamente no navegador e ver o resultado em tempo real.
+            Veja alguns exemplos de scripts Javascript.
         </p>
     </div>
 
@@ -63,7 +63,7 @@
             Explicação do script... lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum efficitur felis a quam ultrices, vitae suscipit risus tempus.
             Phasellus non consectetur tellus. Quisque et laoreet odio. Nunc non dictum nisl. Nam vestibulum ultrices aliquet. Vestibulum ante ipsum primis in faucibus
             orci luctus et ultrices posuere cubilia curae; Praesent fermentum, lacus et faucibus dignissim, eros metus luctus urna, nec convallis lorem justo eu est.
-            Praesent nec mauris molestie, bibendum erat vel, lacinia diam. Sed non dictum enim. Curabitur id hendrerit metus. .
+            Praesent nec mauris molestie, bibendum erat vel, lacinia diam. Sed non dictum enim. Curabitur id hendrerit metus.
         </p>
 
     </div>
