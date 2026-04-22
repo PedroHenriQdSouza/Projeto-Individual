@@ -1,0 +1,141 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+html{
+    height: 100%;
+}
+
+:root {
+    --primary-color: #FFFFFF;
+    --secondary-color: #F0F0F0;
+    --accent-color: #FAD12B;
+    --background-light: #f4f4f4;
+    --background-dark: #373F45;
+    --text-dark: #333333;
+}
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+}
+
+body {
+    background-color: var(--background-dark);
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.banner {
+    display: flex;
+    height: 40vh;
+    justify-content: space-between;
+}
+
+.banner-left {
+    display: flex;
+    align-items: end;
+    width: 50%;
+}
+.banner-right{
+    height: 35vh;
+    padding: 20px;
+}
+
+.container1 {
+    background-color: var(--background-light);
+    gap: 80px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: fit-content;
+    padding: 80px;
+}
+
+.container2 {
+    background-color: var(--primary-color);
+    height: 100%;
+    gap: 80px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: fit-content;
+    padding: 80px;
+}
+
+.conteudo-grid {
+    display: grid;
+    min-height: 300px;
+    height: fit-content;
+    max-width: 1700px;
+    grid-template-rows: auto;
+    /* grid-template-columns: 22% 22% 22% 22%; */
+    grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+    row-gap: 50px;
+    column-gap: 50px;
+    justify-content: space-between;
+    width: 100%;
+
+}
+
+.elemento {
+
+    height: 370px;
+    width: 100%;
+    max-width: 370px;
+    font-size: 45px;
+
+}
+.conteudo{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    outline: 8px solid var(--background-dark);
+    font-weight: bold;
+    color:var(--text-dark);
+    box-shadow: 0px 0px 20px 10px rgb(201, 201, 201);
+}
+.adicionar{
+    outline: 7px solid rgb(216, 216, 216);
+    background-color: var(--secondary-color);
+    box-shadow: inset 0px 0px 10px 5px rgb(216, 216, 216);
+    color: rgb(216, 216, 216);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.elemento:hover{
+        transform: scale(1.05);
+}
+
+.text {
+    font-size: 25px;
+    letter-spacing: 2px;
+    line-height: 35px;
+}
+.container-exemplo{
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+    width: 100%;
+
+}
+.conteudo-menu{
+    display: flex;
+    height: 40px;
+    justify-content: space-evenly;
+    align-items: center;
+    background-color: var(--secondary-color);
+    color: black;
+}
+.conteudo-menu a{
+    color: var(--text-dark);
+    font-size: 18px;
+    padding: 15px;
+}
+
