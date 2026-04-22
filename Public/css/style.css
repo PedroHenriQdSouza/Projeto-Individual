@@ -6,15 +6,6 @@ html{
     height: 100%;
 }
 
-:root {
-    --primary-color: #FFFFFF;
-    --secondary-color: #F0F0F0;
-    --accent-color: #FAD12B;
-    --background-light: #f4f4f4;
-    --background-dark: #373F45;
-    --text-dark: #333333;
-}
-
 input::-webkit-outer-spin-button,
 input::-webkit-inner-spin-button {
     -webkit-appearance: none;
