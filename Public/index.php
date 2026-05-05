@@ -4,6 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../Public/css/root.css">
     <link rel="stylesheet" href="../Public/css/style.css">
 
     <title>DevTrack</title>
@@ -28,28 +29,47 @@
             Mais do que um site de estudos, este é um ambiente para desenvolver habilidades, acompanhar seu progresso e transformar conhecimento em prática.</p>
     </div>
 
+    
     <div class="container2">
         <h1 class="title-desc">Conteúdo disponível</h1>
         <div class="conteudo-grid">
-           <a href="./conteudo.php">
-                <div class="elemento conteudo">JavaScript</div>
-            </a>
-            <a href="">
-                <div class="elemento conteudo">PHP</div>
-            </a>
-            <a href="">
-                <div class="elemento conteudo">HTML</div>
-            </a>
-            <a href="">
-                <div class="elemento conteudo">CSS</div>
-            </a>
-            <a href="">
-                <div class="elemento adicionar">
-                    <img src="./images/plus.svg" alt="">
-                    Adicionar
-                </div>
-            </a>
-        </div>
+        
+        <a href="./conteudo.php">
+            <div class="elemento conteudo">
+                <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/javascript/javascript-original.svg" alt="Ícone JavaScript" class="lang-icon">
+                JavaScript
+            </div>
+        </a>
+        
+        <a href="">
+            <div class="elemento conteudo">
+                <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/php/php-original.svg" alt="Ícone PHP" class="lang-icon">
+                PHP
+            </div>
+        </a>
+        
+        <a href="">
+            <div class="elemento conteudo">
+                <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/html5/html5-original.svg" alt="Ícone HTML" class="lang-icon">
+                HTML
+            </div>
+        </a>
+        
+        <a href="">
+            <div class="elemento conteudo">
+                <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/css3/css3-original.svg" alt="Ícone CSS" class="lang-icon">
+                CSS
+            </div>
+        </a>
+        
+        <a href="">
+            <div class="elemento adicionar">
+                <img src="./images/plus.svg" alt="Adicionar" class="lang-icon" style="width: 60px; height: 60px;">
+                Adicionar
+            </div>
+        </a>
+        
+    </div>
     </div>
 
 

@@ -4,15 +4,6 @@
     text-decoration: none;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
-:root {
-  --primary-color: #FFFFFF;
-  --secondary-color: #F0F0F0;
-  --accent-color: #faca2b;
-  --background-light: #f4f4f4;
-  --background-dark: #373F45;
-  --dark-hover: #22282c;
-  --text-dark: #333333;
-}
 
 input::-webkit-outer-spin-button,
 input::-webkit-inner-spin-button {
