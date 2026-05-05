@@ -6,15 +6,6 @@ html{
     height: 100%;
 }
 
-:root {
-    --primary-color: #FFFFFF;
-    --secondary-color: #F0F0F0;
-    --accent-color: #FAD12B;
-    --background-light: #f4f4f4;
-    --background-dark: #373F45;
-    --text-dark: #333333;
-}
-
 input::-webkit-outer-spin-button,
 input::-webkit-inner-spin-button {
     -webkit-appearance: none;
@@ -30,7 +21,10 @@ body {
 }
 
 .banner {
-    display: flex;
+    background-image: url('../images/Design\ sem\ nome.png');
+    background-attachment: scroll;
+    background-position: center;
+    display: flex; 
     height: 40vh;
     justify-content: space-between;
 }
@@ -73,7 +67,7 @@ body {
     max-width: 1700px;
     grid-template-rows: auto;
     /* grid-template-columns: 22% 22% 22% 22%; */
-    grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+    grid-template-columns: repeat(auto-fit, minmax(180px, 0.5fr));
     row-gap: 50px;
     column-gap: 50px;
     justify-content: space-between;
@@ -83,10 +77,10 @@ body {
 
 .elemento {
 
-    height: 370px;
+    height: 300px;
     width: 100%;
-    max-width: 370px;
-    font-size: 45px;
+    max-width: 250px;
+    font-size: 30px;
 
 }
 .conteudo{
@@ -114,9 +108,9 @@ body {
 }
 
 .text {
-    font-size: 25px;
-    letter-spacing: 2px;
-    line-height: 35px;
+    font-size: 1rem;
+    letter-spacing: 1px;
+    line-height: 30px;
 }
 .container-exemplo{
     display: flex;

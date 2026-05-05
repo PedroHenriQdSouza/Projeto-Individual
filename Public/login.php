@@ -5,6 +5,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="../Public/css/register.css">
+    <link rel="stylesheet" href="../Public/css/root.css">
     <link rel="stylesheet" href="../Public/css/style.css">
 
     <title>Login</title>
@@ -16,7 +17,7 @@
         <form class="form-container" action="post">
             <h1 class="title-desc">Olá novamente!</h1>
             <div class="form-inputs">
-                <input type="text" class="input" placeholder="Email">
+                <input type="text" class="input" placeholder="Email" required >
                 <div style="display: flex; flex-direction: column; gap:10px">
                     <input type="text" class="input" placeholder="Senha">
                     <a style="margin-left: 20px; color: #E25D5D;" href="">Esqueceu a senha?</a>
