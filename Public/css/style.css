@@ -26,9 +26,7 @@ body {
 }
 
 .banner {
-    background-image: url('../images/Design\ sem\ nome.png');
-    background-attachment: scroll;
-    background-position: center;
+
     display: flex; 
     height: 40vh;
     justify-content: space-between;
@@ -83,7 +81,7 @@ body {
 
 .elemento {
 
-    height: 300px;
+    height: 260px;
     width: 100%;
     max-width: 250px;
     font-size: 30px;
@@ -152,13 +150,8 @@ body {
 .lang-icon {
     width: 90px;
     height: 90px;
-    margin-bottom: 20px; /* Dá um respiro entre o ícone e o nome da linguagem */
+    margin-bottom: 20px;
     transition: 150ms;
-}
-
-/* Opcional: Faz o ícone dar um pequeno "pulo" quando você passa o mouse no card */
-.elemento:hover .lang-icon {
-    transform: translateY(-10px);
 }
 
 .lang-icon {
